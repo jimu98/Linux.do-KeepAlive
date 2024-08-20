@@ -2,7 +2,7 @@ name: Run Linux.do Script
 
 on:
   schedule:
-    - cron: "0 8 * * *" # 每天UTC时间7点执行
+    - cron: "0 1 * * *" # 每天UTC时间7点执行
   workflow_dispatch: # 允许手动触发
 
 jobs:
